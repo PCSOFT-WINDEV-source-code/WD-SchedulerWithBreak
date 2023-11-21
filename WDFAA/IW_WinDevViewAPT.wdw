@@ -1,0 +1,160 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_WinDevViewAPT
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_WinDevViewAPT
+ identifier : 0x2bf5997903359af3
+ internal_properties : CAAAAAgAAAD4fZSmPww6i9m5uiBlJn8+QvFkHbSpZQ1eSY2rLKaJREp41ORoyCC6pkIvpe4VP0A+CPF/CTXo6FFNY+HO//CSIsnEF6I+DZcko8wzbP7HNPdC6b5JNYUJYq6oeey8oO+cHWXxcdn7MuY2hhNFE2YQVEjnF4MOQHDBcbzyqY5EOscql4bLQ43kfwD1ovXeeaYuGddpuxISe9YPMIMxAi9ne3SyVc6dnN4+CFnwaX4oWZ580jMyEqzYM+yOMqfqeshS6p/M7iIyK4ldSukCLI3EQcpLj+3Kn6q/CKnKsVtdd0G9dDLYMjEohJGUOdYZpvzcodNnpHN0QO2Xf+EsvHkrIHLS6u1auRkVH43aWfPLOACBLFeDUGsQviPKgK9FXaJa3OcOkgD3FXDJZ6PH5VbXCCh5vTmvBp/ZmGIyHboUlG4kOOVXh5NhQIAZ/lD61kiSqFeBpfR+JmW0fCSAgeb3U3OnAauGPdu+DjFf68PXoJZipQ/9ssN7hKB2bFiqdl1htbmhob7xaheJcaw7rI0JMB8euL0iuxNZa/yKYlBL8y7nNtcJBS2nuC9n0Eo6Y48PC6uxrVNqvkGl66xECGa/AY8/9+5CPZF5QY0fScN1rqSZv72FD4AAY2IKXLG3YUD23LTX8p4oqzoS
+ properties :
+  width : 175
+  height : 104
+ controls :
+  -
+    name : IW_WinDevViewAPT
+    identifier : 0x2bf5997903369af3
+    internal_properties : CAAAAAgAAACrPQeZdtR6WkK+sKoN9xt7L++AC6O8DjaJ+MFnyJj0oLY50VxNN2LxQRUPCbE9K/V9LvVuTWMVUgtS4YxFREKxXeb4p53+PIvTN4fs4dNlscwZAcm2Ba2M2/g0rhCk6eJG0P2SW2/AoctHRsyzi4bCHLRU7OulxmDv4TePpgSkHhuGeNv8+Oki6xmusmbNSV4rFt3/OIrvxZF/2jtS/H89Je3JdmvUMwaf3e9RzqJfJF2kDVQlK/+uw68WXQMcA3ZBYs5nEKGqQA53iLhs4X7YPlXPZhmTckmvjzdsKgCWgCXZ/+SDv3kgpUcNAyVJVSW1h3NrMfUEdNlUSlorfAafXROGdDMX/UaGEvo6wt7nOSKki0EfCv4Oi4/3CRI4FWEtFTE642pozfkWL5vDyyvj7yBWRaNsSmsPv2Y3IXqr1l+pccFTBl4BQiQ7ed1fyn87BNuZpNWh59KbLLKCy2MRhy8yCdLU57LcIPLUMA==
+    properties :
+     width : 175
+     height : 104
+    controls :
+     -
+       name : STC_APTTitle
+       identifier : 0x2bf5997903389af3
+       internal_properties : CAAAAAgAAACLdtA257yljxhCUIc9SH7cp4q53GH7/1owlUwbY5nXKxwSjtUx94x6tFbJO4L0qII22GZDGsIDAQnNr6nkEXjH+N9l7TT6Ke1F9dKCZH/7HpcGq89+Ty8dHoksf1DIXN88BaAxht4Q33pDhceb3m4eGvpG/dKwk36B3sjWQA6AQJ7GqbzB/CyOkbTfHvM0NMgHwdPnCH/aigzD8spHyDxIdx6V+EFRxmCQc647WSOIAMeC7I3BIzzBeUxDBTVmtg/NOWXb3Oh+cfLiRua0nyAwi95ygQE1KHmHU7nlYHsDePuteyWosb9iOyFEcVoH++BStBYL4x2vG7nnxCPPsBWsu6cZ2LNET1e397Is/7jXqZ86NioNnQw6Qihk5BRnkzWI84Z1aGM=
+       properties :
+        x : 14
+        y : 10
+        width : 155
+        height : 85
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Mask
+       identifier : 0x2bf5997903379af3
+       internal_properties : CAAAAAgAAADp+uw6y2FX92ZNcZSwIOog3QVjFuoGc2mT+xirEzjUKK5MsETgz4EiZ+sdHinbKjyeUZt9WV2gOD0bWOYHlR6ntzIg9rqo+DAjnmfeFE0yvhoVODuTKH5KMPN8nNG2dQH7x8I8ElFFDrqlLt2z1z9EPXUTBLjVmCzhGkBtnrATwuYtCVxoyooGZTjjdT45m1u4fH7VBOwWiy2d0yQ8SBh267YzLttA3CxFfgkEetx+JEwaOYtYUvidjwxTLoi5MY4qL/AYaTD0nxkFWPCQRYfGJcK8OFU3PjhaxlTQ478bc8u1j1G26iNxHoLeCoCapNcvmcqY1cU204gW+JnoaB9Je143fcP6/nykYTkiS2FuchGaVk6THDbaRhK6GGO5Nbe6xPUmm4IbbyYOfVw4AD4D1TuLwuALWWBPp4CjCO+ZBCjUQgi/YoRCScuQBITymviCGCNTzaqWeIPKKmpLJYRNnliS+N6U/TKg4IpJxMVlxFHx9JyYY0VDhyPLuL0oQQzqZu042JcKAv/IYVpxuhhyZP8/Vuyf0l+4hXT/pvQ1AkHjrHVY7fXqfznWH1riHA==
+       properties :
+        x : 12
+        width : 166
+        height : 104
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABGt/VGFA1BlxYJKVGniduLmnSM0wKcWdJ0rkj1Q2GrwNgYY7mwpuvVvHXH1IWjf/ZKNMaO30Dh0vAo8xv2AVxLayNwSESCePFV2iq7XqsNpx8oPtjdyCBWsU6F7y4tP0aXp72/9LSG0ri17ksET6AHNrAhxdwh5Y4jjPdUtdI=
+        code : |1+
+         // Procedure called before each appointment drawing in a Scheduler, Organizer, TimeLine or Gantt control
+         // This code is re-run for EACH appointment display 
+         // Note:  You have the ability to create a layout whose height is less than 32px to use it in "Calendar month" mode in a scheduler control
+         Procédure IW_WinDevViewAPT( EventOrAPT )
+         //EventOrAPT: Appointment or Event to draw
+         
+         // => SourceToScreen
+         STC_APTTitle 					= EventOrAPT.Title
+         STC_APTTitle..Color			= ReadableColor(EventOrAPT.backgroundColor)
+         MyInternalWindow..BackgroundColor	= EventOrAPT.backgroundColor
+      -
+        type : 15
+      -
+        type : 16
+ menu :
+  name : _Menu
+  identifier : 0x2acc86310b04310d
+  internal_properties : CAAAAAgAAAAjoO+VYAXYh2SYpTvD7AgXCHEHRjuTd5K/qNR3zUpM1aIlQYejrbtK76/LWLozAhgdmcRuoxDXe7vi3lf8PoZYYzNtPYlgCK9AarNrSCSSPpGDp+KLIikSwO2L+lCfwFobS8WKQZu2noN9WV5ipxuLKjTaOvfojbcmu1i6FPrF8FEPa+oQBHdRyMYNLYyLF/nTGn2y7NBixG5dC7y2wsO4aXA1CKpzZUca8sBJUrSr9FqhTJMK37pOOZqMTeCIo+trbOMI1osTdzjD26auXrzETrP8OxsAt+HgvahLwDb4kRpR6lQOjBIj
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : ReadableColor
+     internal_properties : CAAAAAgAAAAuH4H579LUce7CT/gPicsuKPFWVUo32Ty1mxqUEAHQdzZDsTF3O/HkKXZrOZgw1umsewVgOiRNLLsreAKryvXorUsvGHySew7LBAo1Z3oDiO8spwrh9INYWrRhQn/Sk2LHBL6FJqtiGd4iCpH1
+     procedure_id : 2014685153298520819
+     type_code : 14
+     code : |1+
+      // Summary: Returns the reverse color adapted to the requested color
+      // Syntax:
+      //[ <Result> = ] ReadableColor (<InitialColor> is Color)
+      //
+      // Parameters:
+      //	InitialColor (Color): Initial color
+      // Return value:
+      // 	Color: Reverse color
+      //
+      Procédure ReadableColor(local InitialColor is a Color) : Color
+      
+      nLightness is int
+      rBrightness is real
+      ReturnColor is a Color
+      
+      
+      // Calculate the lightness of the color passed in parameter
+      rBrightness = 1 - (0.299 * InitialColor..Red + 0.587 * InitialColor..Green + 0.114 * InitialColor..Blue)/255
+      
+      // According to the luminance, the text color must have a low or high lightness
+      if rBrightness < 0.5 then
+      	// Low luminosity
+      	nLightness = 30
+      else
+      	// High luminosity
+      	nLightness = 30
+      end
+      
+      // The returned color keeps the shade and the saturation
+      ReturnColor = HSL(ColorHue(InitialColor), ColorSaturation(InitialColor), nLightness)
+      
+      
+      // Returns the reverse color found
+      result ReturnColor
+     type : 458752
+   -
+     name : ReadableColor
+     procedure_id : 2014685153298520819
+     type_code : 14
+     code : |1+
+      Procédure ReadableColor(local nInitialColor is int) : int
+      
+      InitialColor is a Color
+      ReturnColor is a Color
+      
+      
+      // Stores the initial color
+      InitialColor = nInitialColor
+      
+      // Calls the syntax with the color variables
+      ReturnColor = ReadableColor(InitialColor)
+      
+      
+      // Returns the reverse color found
+      result ReturnColor..Color
+     type : 458753
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x1b4ca68200b0c2ea
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

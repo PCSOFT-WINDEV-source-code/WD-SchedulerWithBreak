@@ -1,0 +1,1137 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Schedule
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Schedule
+ identifier : 0x2bf5997803119594
+ internal_properties : CAAAAAgAAAA0Vm6mq6dlkGc15fr5DCAyKM3FJnlRooQDyKdRNh0d7QgXxo8USfmeSx3op9MsePRk4Z38KYuranZ6xUQEA2kFTKTrqVx/r95OzHYkBQEQqYBdkj66yd5x3OVyskaXveVnIStQdnin72sdwI90XuNSsBC1jgAoTz7wNbE9LdCPFeG0kQCgri6eTXax5K1eDqgrqpMQGrsWrS0SddNRICE63rFsxTHSv+bln1+VR0HEoHaSmHcy99JlYpweTzuS1zC2ktt2eU5hwwAcbG5okzQFc+QeV4xJoqSfyqbso2ZSk6Lqx28QE4upI4oYt2viLrIZX5SP+SXvXPB4azBS8NeDiKGrd8y+F0fqTuQIcLwZd65u99YdWdCY+Hi80gNlg5xaCAEVfu7GZPy8UyrZ67oEOy0hLZAXj4yS5xNvIGhgtBtzs9n1XWri7kywvIthgOrbZYkfCiJNtsJzIqA3CeUPYMtDGb2Ilqwsbt/UohA/O9/Oe01wI2UlYr1TvvfxRlcv8Zit10ErMRaRl50yiT9BJHnq2ASfvbXIpILO0gHIiG/oDVmr//8p3dOOfrMl5ZzlaSMlm/MN44XlRzWjADSKfhr8IGWqNvLh9iG2uYQSJD7ql/MsvgIUFAFPCVlQ2IZupCf7zcMuDDTsfgQWEX/hVhYkBtyQY4xnuY486soMl/kehuK9hPS4iEaxtpmZc3UHtzWCTDldnM3zzhArp+JGqmSuXtPuzm8eCOD0Y+tHF8AOm66ugobjv9tLt6GXKWyzjgw03gRaxe2tPw85oZcEXMPCI0Iu/NhSLao61hXX6e3L9wnQvni1evGqV3dx3+MjIw==
+ properties :
+  width : 786
+  height : 652
+  widthClient : 784
+  heightClient : 620
+ controls :
+  -
+    name : BTN_F5
+    identifier : 0x2bf5997803129594
+    internal_properties : CAAAAAgAAAC9s7ofAfSTN/0g6p2CBvZg3+9cP8gpPXD7ionAzYMehipsHV4gdKSWHf6UOr4tzig0ZUywteUY53sudCQvBq8sA7v0AG6MqynbofK1I6Ulb/iyVzIMX65dO24YGjc5G/GHLMhfdjKTe6NbGiRo3FJsPTzOiaoBENGfO+5jx4ii6l4zl1GN/8XrZ5Br3XPOA8hFojaNd8hyU5p27rfEHfYk4HsiiCylH0MjrMGcCxzU+owfiuA1At0+Pzepa8oE5eoWXN5PQCIek+GL8SH3MAZVEnkZwQ/sdMwaf4ji70gOkSHuy6Yax8dWCTgSCmv8yK8HxN5QMic4nuQGSRZn01qXNWPs+1IeGfw+39dbFiLTa2BvWaaEChWKDCSOQBgKLOkR3/pECmtCHAKF+LxGL4D7Rr4psEd+Q0zA1UT5ATShJgYLmUvU/U5CpblpPwBpqyVqVyhJD7ZqBGGC8f1h0H2H+PU8jVoEtfVChF86y8SK8HeF9zpH2ysSoA31tX42/nmQVH2v95VkXY2lBN+nHuKatWaO2moiKUdfNrL+RxDS0qUX3/pGRz6uXaqZIhP99yiEkG96Sy5f/+/k0ALwPuzAmGRJ9xDCcOlHm3k6Wcwi1Vzb9oKBYRYY9f1ztIbYALZ8N3rKVMA3gd1TRScF+EO8VNsMhXYVSazAvHceofz8Vx6cc5cg+4Ae64RSf9IH68e0hJRVLSJTU+uffz4GKxOz4SBtatFhONn+cQHWcCiMRCBG7+kZU3EBoTrAADSqRuDlwWhmZCTVudTE6drALAOQoubMfhWkTN7aV6HWSKbz2fhPZVXXf7D+vGx0xlU+bhGOZdANaW69uRPLQfaEeSjqTyT3rcddNwYrXuKN8g8wYFuWsYh+llYI5HnBfPer8xQbw349kpeJnrZYrOUtV0w21io4Pw==
+    properties :
+     x : 824
+     y : 105
+     width : 68
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Fills the scheduler from scratch (expands all the "breaks")
+         FillSchedule()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CollapseAll
+    identifier : 0x2bf5997803139594
+    internal_properties : CAAAAAgAAACorbct7H9r3020LUoMjKlLFg0VSI3GG/2kpMnvsguKJ6Jny0pkVa3lZ0Zj57LJ//nwI/GhbXYQpPToOVFfhSgyezOXjEj3G4mfZFqFe5nOxb6bSkLe5ZComy1iOjEz+0bRqr2o30xSuFLjgY8wIhtpAjOmr/yyuxCj2VeKZyl8tDTwAEWTFYXcimA04Pvhrgk8BkYqAQk7XF21HRy9fbnTd+l46cqh5TAdjyOclOLvu5KekQjuuelmafimx9wxEziNX7HfBQbMbwEcNgHmhGiZDUZCtH1qHwXKxW5SMG2pfH7N+gsdnajqehIj4Al41Ej+fO4isyVHe70Zmg2EFBv4gwAfouN6V1TITaIawfofxc6PY0CdW80fbft0W4dLkZLOMY9yWpOgFusf2mHLZokj2jT7OwI0PhOv52yONXSiu/levKvtIZI9mjDkNv2+YJ2XN/gvzPjMfeuCd6xTn57XGelXQSk1O125NeLGSFdkoTdDsjJT52JY2vmp8+554yUspdymshAWrpEMTqI+nvQQYC11umg0Sh7di0/4xyCHg2UtKAp+WJaIIwWcDX0h8ieq/YEk/rJuYH1ogSGDGTflYqR006lYhl/H56zEPh8MLjOrPB+9feIN1HuLC7H6RPtEAt3NnFUYmolsuXts0hD8a/gcmpjn0WhZNSfDd88AwbVu6JhGIZo7fyyiAoL+n4stpuDblMBz9/2M1yYyZH3g+1Vui0Ktzg/2GCq6C7Iz2WpVObu/xUPLkVsjDGf0bD9ucVwG9Du9+Wtx0KHqUbz59LHcHb2z/zZaM4sZW+kvdpA8uz6Q/1yHgZh24uEa5rKD6EqWgQQ2pjR4Y10LeIbO08GBi6dFmlx6EEQyOBM6nP9F6dedubWjIZMqvZUa/wn+N7PhckZJm2LN+SL4lKktEFLGDoTY6mtKog==
+    properties :
+     x : 153
+     y : 590
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Collapses all the "breaks" of the Scheduler control
+         SchedulerCollapseAll(SCH_SchedulerBreak..FullName)
+         // /!\ Caution: the scheduler must necessarily be rebuilt
+         FillSchedule()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ExpandAll
+    identifier : 0x2bf5997803149594
+    internal_properties : CAAAAAgAAACWPjdG5XgMPCOJWfX53ZbayEKwiHVNyLEra7zeprpyEUVw2Vqw/qJgtRGj0uLQRBQYHRPwWUbTOTbTEectW1e2V07RBtNOq/s/QdZD+WuUDcc6T5UXxbUCR0BS8B6ARvmtCRNFltmTov0aFtA12DeOyvkuPTQqWnf9Tmbb6bGxfbyN10iSAwksEN4O0g7obNLLJOZdkB+A8IAiNepFQ0fc/EfKP2EZZrf8TEdjmnr6J3AjVqQXVmbER1uTyM91FhQY01W7sG414fO44uqkdlEjw2kQ2+uU5HH3eJSrLILFjMIxHVR5qjXf0BcwSHRsko0t1G6n6gk3x7v3sXLiveTtP4c5+F7qeKi1VXf0Bmbx0GLs5MTAe9/w/FFDktr+DmUk5XRwV3sniJw03A136dbdAKirR+fwsFJ9zFxvIJpgQFs3PN/OK8wXV85003tgrrr8mfFCa4wY+ajLZ9st71qFGslNjqbkekbHIjKVRTbm2YojvolwloejZiK1jr/shZEl33KP9dnHXWWB0KPHCRZc460Xlw2DASNlCH0/YOO3yWwznD9Tjz21Y/7cDGa0wPuDGV21yYvd/eWjl/aE9LPDffCCSIj9n5q5yoS9C36+wuDRFmqmYNGm6lTBHuCP7q9dxjnq9ch9le3XObpvc9aEjLjYjStgUgcJQA80yIJEO3KmKE9lnrUoTd/6SZGrpSNeQiLeFbPMgp8ZXc3tdY9rt8QBNOU57sNdYE3mkawsZoQuGs/t62sXCKskPmWSe/7ogIc8fFdxnV1lkUM70wi4IwuswKERZMwx6GekA18d11DwZT7ugzo+GYCq40bAEKRcMyXpRj10OIvIyt/zRA/zg25Ude/ZGrjzYCUmypVlg6nelsHldWdhQilnz+8MrP5Y8BS/vtZx34Grwjj+qvB07Ks/Qj7Ssm2X6UpR
+    properties :
+     x : 239
+     y : 590
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Expands all the "breaks" of the Scheduler control
+         SchedulerExpandAll(SCH_SchedulerBreak..FullName)
+         // /!\ Caution: the scheduler must necessarily be rebuilt
+         FillSchedule()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Collapsed
+    identifier : 0x2bf5997803159594
+    internal_properties : CAAAAAgAAAAaWNpaqJKgrGwPQPj9suyztRkZlhQXsJX0PznMxqGlf+z+kfPMpq78GE0rn0xPGgqTGGa3qyP2/6k/qrtudiT8SX0K1bpFBvLoII+2QICr3CN6ys1JU1Ojhevx8dq8eYl+1sM+anA+qooAOqTiIXVlchycyoHThe7x7X/SZrj6WnZ474H+dwLE2o+lnOdN2z1fHwqGSGzkojzDzuMJWDAEHdCNq6Rf2bYMmgpaPgBavmW45hFmlcYPmk1xBrtEsLnTX9Xv8RkFr5U5VvdXjcNtbFptAFreXbRHcluqLbzzD0xZZew1a3C5hvnYaBbAmPHcGQKgvjLhoByVvczu0ay9vnh1oZp5RHA2sc+ckb1SiyAvIxx1DyuLhia8ODTEsROWAl17sPfjX7M5d6RO7Uaj5MOEwvwS3MvHHTKel8yebJ5RkzLbBnqx/UywV9hndmrA8EnbX1iNmDuUAbCXLWiz+KD3XQZHQTwiZtxqECYnweYBz17nSvYlMVwl0cBEbmsrwyWeAF0yF+w3pEK+SxHER+OcfNIVCA2usHva14XYExpHmQi8scy1XrrqLY2CM8c7R7SIrr1KV9ajibsZJNK7yb43T4tFQNgmUBRq1LxJ3Hbt21fH+oS8Gfw3+XHXcVdprHw39uLMRZZv7yeQ7a9ybkj5LsJiNbsubIW7LbbbNTC6x8jakGwcgqUObOpNPtcOQB0toKOxCqINv2x0VzJ2WDuhUcbqItJnB3jiI2VTxoAiA0+vyEdAv0+qs7gQL9LbQO5r41NqGI8lJUs+DRNWG8J3Rklfs0py/XCTOs7URccQlqQPsUwskSNLWSiukXMj9fKRfJ4RusNkdynT4Il/G+hMuPFS0IraVs0IYMu9SpSQgKnbsMWLRhobeZql3oYPXmliQplP/6h6ejru6U1LpkjF4KhmuJWjMyd5T32NNyrh33SqPd/PfZh1DXk=
+    properties :
+     x : 325
+     y : 590
+     width : 154
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Collapses the "break" of the "Sales" group
+         SchedulerCollapse(SCH_SchedulerBreak..FullName, "G"+ESC+2)
+         // /!\ Caution: the scheduler must necessarily be rebuilt
+         FillSchedule()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Expands
+    identifier : 0x2bf5997803169594
+    internal_properties : CAAAAAgAAACw16uw16E6ltSC5kD4DZ/ZemSdS4Q4t9MO9NybNNlyNQx5UThdQC5V+cHCTxKlehbXnKva//SVGMYj9ABfOjfJaR3UP6QyHpwhG2QRr3P8x2q64xpZ3SUrKBOg+i/ICDmoij+aRyvhMJfkedYQsctSwJOOX8jPplkvrZKTMBOVRz6LfAVPHdPbtYiTu3puTgCaUx5HjNuATjpujnvMVdgohqWZqRk74L6P5M85qAepycmo4SpFVOUCO6R3lNgLl1I565M7GduvSQJ5bh/gQG8oIEqsrW/Tv43yCGvceli9v/aCjcTE9tAYWMd7FWtd7NrYVIxqq6yv3Ti+HlkU7kmej3DtkD2SQTzyrq5BxdHVk8SwuDcXhz+MIGFThNKXj/fVUhrhACKo5c58EalZz9Lb3qr7u5LfwH2WKEl0i4R0u2NoGks13LY5y7BKVUTF3nUeL33e7dcZTIAfDASFcQvP7btd4vLxQSCF76+fjL9opTn94aqyp9qCTBYWexRcDtV9sdiNAcCchZ0Y0OSXlVb6F6zO9tkgEZBlbjh8jzhtX1Rf4juSYWvE8Y5Hnouihz3edYOR+WrIz1NZBo9K/Vd87AER3R1QYk+0RoUw+ap/houRmtxAnVuUV0KE4vr5WXHpmBk05AXjGEhf9E50O3VBleLNunUX9Wp88sDRNnHyAjgHNnDOEz0K8wW9DgxkRS2HjHZ85+gvbzgdN+aUMTiqdFLoEIfSZjxBABw7+5+9EQ8k5i8aSepfcluH6QeJUNx/X/ZtXPpDiIQoKvBqucINIQXTh+Myoq1JHi7DNuLyirNKqdrrmn/+AxgS+I8i/Yh6bnXMdEu56CcaUKazB4aLyt5D03p32nkXUT4yVqpxI+dP90xrZnJU83gW4994oQWD5f0YfVEMVIkT5EGb1uWjVnw2jNeK0NPnboW65fRJisPFPZwSGmO4+Lmx
+    properties :
+     x : 485
+     y : 590
+     width : 154
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Collapses the "break" of the "Sales" group
+         SchedulerExpand(SCH_SchedulerBreak..FullName, "G"+ESC+2)
+         // /!\ Caution: the scheduler must necessarily be rebuilt
+         FillSchedule()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_Expanded
+    identifier : 0x2bf5997803179594
+    internal_properties : CAAAAAgAAABYOsvCnFesx2nCti1OBfXdNtNNM6ULmizMZ6xDyVAKUHP+ObDRjFa8lb5A7Vv8Uwtgty+HKzdtUhfzpvfX53E19qNfRyjcAgKWBA3E+C9GpvQ7uELy+QmxQP0oUnpkCnMeCbtFM+n4kdaZCMHtmejVz22q2dS7p3M9osiAmddKoH6daMUe1I3aIEHs1Hn32MU+jy5XZSKoTIge9SqnnnOkC+7Xq5git9nTj++PKihNpkPfIkgyxMuj+kRMBfM2VR4GdKp4vex8uH+IjJxMrorlShwG/9R0CCALoodm2mJxcb7hNQ5yRurBnZKqhZMKqNvc4WIC/6jupixnwM4QUxMOGQRZlM74FyoRF4KQ0oZRExkH3oARVcVWCu1LS9IIwdrAPs3BWbIvBvQJaKla+ZEK3dcM4TYGNmHkbk10TGW9A8ILimmSOhcV5yffZnUay5ZMXHCf7Q+PiR765FNsfLE7KOfnT3XJzbAOIEg5fUpMe06sIyDNQJ9cFkkfzR23BRA+YKqx6BRAHa14kjdKoFJg8TL91ENTFQTj+sF97WnxYanRnaKHGdxgFGIWFbZFR+wsTH02EPrB3ucZP+EEXNVmkZmMWRv0vN/kmhvSJdaZUziVkltDeYQ9zuVOfMvbD25fvXBX8g1Rjm80LQR/L8yq/FtvKAMdqJntOohUqGfwb7UjiD6Tr9DMrmVqFbF/T+UUIQ8zD3l5gaOxu9YB90k6ZmOv6dN4zfVn+UK8GuJyR9o=
+    properties :
+     x : 844
+     y : 81
+     width : 18
+     height : 18
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Collapsed
+    identifier : 0x2bf5997803189594
+    internal_properties : CAAAAAgAAABlNTbPmT5B2qTVwcRxY8YMh3cQVFOtZDlsdcA9ly/t11jR3AzvkHdOxRbStYohBEzH7EzGPoaGoao+4SYSxNZqKVDSRiejI1UyFzH9qfaIhbF+qbMPbCB8vjeWXLhOVIXMa7V3eZNOo0HxPgBaVP61iGo95vODeUbd5NNkrwKiPTRBzAPdCCQur7zw1J/raf2ItVRapJuGgS6BZFzMdYIPflFtwZ8OeuIHqh77gLX6BujopvdJBngauJBxmSsSTfIgtKq4/Wz8eP8IjFwMrgrlihxGf1Q0yKBLYkfm2qIxNgC3sTA4GnxVf2bubW3qDK2CXzsZ5Sj8gk6PiozCB0t462qJOlgsJf4PO668dBrlCYs5ZoZrsXtSPfYMxGthXqnffw4C2vGo9/9KYbqrir4t7OCFeq9Xex6rg1b1HTOMAIsSgXBBO8JAMBLKmVA9dgMtfJD/za/vaT4aRDMM3BHbCAcHr1XprRCuQKiZnaosG1DieVZb6gz9abmY0A8AXBZ1RZD4L61UNFpGwdhAHnAjNYHHrTFDRhS/0SBzEHlR3dH/4M0aQgPmj6sOE7NooFNHqssDYXkL9gekNIzoa61NK7E89jvVZVAAYmtuqdL1M2xtCsefFUztshN8BFOheYwP6yUiLQoZBurXGJHM6v0FbegMj5IOoxJuh13bJ5jhoiL0yQG+2ckStRmoeElccIwtWqiqlUDtpneJGAwcxPJaNLP/BL5FhBJMAluvFed3St8=
+    properties :
+     x : 823
+     y : 81
+     width : 18
+     height : 18
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : SCH_SchedulerBreak
+    identifier : 0x2bf5997803199594
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 91
+     width : 772
+     height : 485
+    type : 80
+    code_elements :
+     type_code : 112
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADh6CDhPQME4ZOQkQNcWO5NLtAyYFOGBo3riOKkkK871yD9QdkGjQMfNMeElVdi+WanE2k/2nuY+6pbm6w16Y+GblI0/n16PG5ml3EgSLhTCuQZuByGKqy7fnci3nLcr1FWCn2F77qqSZ9RGrGMce/rAqk7HT8iQyPOx51wVUNu7Q==
+        code : |1-
+         Procédure BeforeCreation(aptCreate is an Appointment)
+         
+         // Stores the appointment that was created
+         // (if it is moved onto a "break" resource, it must be repositioned)
+         gTempAPT = aptCreate
+         
+         // Stores the appointment
+         HReset(TASK)
+         TASK.STARTDATE = aptCreate..StartDate
+         TASK.ENDDATE = aptCreate..EndDate
+         TASK.STCTASK = aptCreate..Title
+         TASK.PERSONID = ExtractString(aptCreate..Resource, 2, ESC)
+         if HAdd(TASK) = False then
+         	Error("Unable to store the appoinment in database", HErrorInfo(hErrMessage))
+         	result False
+         end
+         
+         // Stores the identifier of the appointment
+         aptCreate..ID = TASK.TASKID
+         
+         // Modifies the category
+         HReadSeekFirst(PERSON, PERSONID, ExtractString(aptCreate..Resource, 2, ESC))
+         if HFound(PERSON)
+         	aptCreate..Category = PERSON.GROUPID
+         end
+         
+         result True
+        type : 135
+      -
+        code : |1+
+         Procédure EntryInInput(aptEdited is an Appointment)
+         
+        type : 136
+      -
+        internal_properties : CAAAAAgAAABfGQ6FERO9YivAy27Ay7iJZ3EkMIjRI59rVtcsdNG3z9XgBlRzvIHhHP9PkLyKna47zsK84BhcrvwzoncuskAag0terQumKgqi5ByWJGRqsBEjAsUIHUhJjvb/1t0LuWqrj4kbeOw6PjCCo/g=
+        code : |1-
+         Procédure ExitFromInput(aptModified is an Appointment)
+         
+         // Find the appointment in the database
+         HReadSeekFirst(TASK, TASKID, aptModified..ID)
+         if HFound(TASK) then
+         	// Modifies the title of the appointment
+         	TASK.STCTASK = aptModified..Title
+         	if HModify(TASK) = False then
+         		Error("Unable to modify the title of the appoinment in database", HErrorInfo(hErrMessage))
+         		result False
+         	end
+         else
+         	result False
+         end
+         
+         result True
+        type : 137
+      -
+        internal_properties : CAAAAAgAAAB5u2ynDyyF1pHqBwikr95fOYt+TLY39xPx2NP+yAUJQXvuoEC9Wh3hMol/tpQqcxyJfEj05qrtEWmYwzQJ16P/ll5vkgKvr6GzrZ2rl5FFjTwGf0Z74iGQQ2MwS0igIMuahlogX60IXBKkRR4=
+        code : |1+
+         Procédure Selection(aptSelected is an Appointment)
+         
+         // Stores the selected appointment
+         // (if it is moved onto a "break" resource, it must be repositioned)
+         gTempAPT = aptSelected
+        type : 130
+      -
+        internal_properties : CAAAAAgAAAB5u2ynDyyF1pHqBwikr95fOYt+TLY39xPx2NP+yAUJQXvuoEC9Wh3hMol/tpQqcxyJfEj05qrtEWmYwzQJ16P/ll5vkgKvr6GzrZ2rl5FFjTwGf0Z74iGQQ2MwS0igIMuahlogX60IXBKkRR4=
+        code : |1+
+         Procédure Moving(aptMoved is an Appointment)
+         
+         // Stores the moved appointment
+         // (if it is moved onto a "break" resource, it must be repositioned)
+         gTempAPT = aptMoved
+        type : 131
+      -
+        internal_properties : CAAAAAgAAAB5u2ynDyyF1pHqBwikr95fOYt+TLY39xPx2NP+yAUJQXvuoEC9Wh3hMol/tpQqcxyJfEj05qrtEWmYwzQJ16P/ll5vkgKvr6GzrZ2rl5FFjTwGf0Z74iGQQ2MwS0igIMuahlogX60IXBKkRR4=
+        code : |1+
+         Procédure Resizing(aptResized is an Appointment)
+         
+         // Stores the resized appointment
+         // (if it is moved onto a "break" resource, it must be repositioned)
+         gTempAPT = aptResized
+        type : 132
+      -
+        internal_properties : CAAAAAgAAAC2X2m2hfYKi6Wg40wXGtTB2nyJi23+DdZYxkQZh5ZQS7yei+icfEEl3SUFW9h0CuGPdAhtUpcuhh6J+0+pArht9H7sv8dRUWc9K1pssQZDLP7EkqMSDAJXL5f+Z0Hml9RoYzdDrnjkgatRcu0B/cGAgTbviNdQ/pZDB/5CY9sWjt/YNe5z7W6P8FMjxmWhIWPy
+        code : |1-
+         Procédure Deletion(aptDeleted is an Appointment)
+         
+         // Confirm
+         if Dialog("Do you want to delete this appoinment?", ["Yes -Delete","No"], 1, 2, dlgIconQuestion) = 2 then result False
+         
+         // Finds the record in database
+         HReadSeekFirst(TASK, TASKID, aptDeleted..ID)
+         if HFound(TASK) then
+         	// Deletes this appointment
+         	if HDelete(TASK) = False then
+         		Error("Unable to delete this appoinment in database", HErrorInfo(hErrMessage))
+         		result False
+         	end
+         else
+         	// Record not found
+         	Error("Unable to find this appoinment in database")
+         	result False
+         end
+         
+         result True
+        type : 134
+      -
+        code : |1-
+         
+        type : 133
+      -
+        internal_properties : CAAAAAgAAAAhEyRvYyU6BtHat/gkL27/+UuOPBZ3ZzNhmLM++FVJkQteQCCNKt1RUplvprSKg7zJfDikJkrFGWHw24yhP8unDuYHajp3J2nLhfUjDxkt9TRut/6Tihm4u9uowyBI6BPSThKYN9LEhEpsncY=
+        code : |1+
+         Procédure MovingResource(aptResourceMoved is an Appointment)
+         
+         // If the appointment is moved onto a "break" line
+         if SchedulerResourceStatus(MySelf..FullName, aptResourceMoved..Resource) <> resoError then
+         	
+         	// Repositions the appointment into its source period, for its initial resource
+         	aptResourceMoved..Resource 	= gTempAPT..Resource
+         	aptResourceMoved..StartDate 	= gTempAPT..StartDate
+         	aptResourceMoved..EndDate 	= gTempAPT..EndDate
+         
+         end
+        type : 139
+      -
+        code : |1-
+         
+        type : 176
+      -
+        code : |1+
+         // Left button up = end of move
+         gbMoveInProgress = False
+        type : 152
+      -
+        code : |1-
+         
+         // MANAGE THE CURSOR
+         
+         // Retrieves the identifier of the hovered resource
+         sResourceID is string = SchedulerInfoXY(MySelf, schResource, MouseXPos(), MouseYPos())
+         switch SchedulerResourceStatus(MySelf..FullName, sResourceID)
+         	
+         	// It is a group ("break")
+         	case resoCollapsed, resoExpanded	
+         		
+         		// Prevents from selecting a period
+         		MySelf..PeriodSelection = False
+         		
+         		// If the left click is pressed
+         		if gbMoveInProgress then
+         			
+         			// Changes the cursor into forbidden cursor
+         			MySelf..MouseCursor = curForbidden
+         			
+         		else
+         			
+         			// If the rollover is positioned on the resource area (on the left)
+         			if MouseXPos() <= gnResourceWidth _and_ MouseYPos() > gnDayHeight then
+         				
+         				// Positions the hand cursor (to indicate that a click is possible
+         				MySelf..MouseCursor = curSystemHand
+         				
+         			else // If the rollover is positioned on the appointment area
+         				
+         				// Positions the default cursor
+         				MySelf..MouseCursor = curArrow
+         				
+         			end
+         			
+         		end
+         		
+         	// It is a person ("non break" resource)
+         	case resoError
+         		
+         		// Enables the selection of period
+         		MySelf..PeriodSelection = True
+         		
+         		// If the rollover is positioned on the resource area (on the left)
+         		if MouseXPos() <= gnResourceWidth _and_ MouseYPos() > gnDayHeight then
+         			
+         			// Positions the hand cursor (to indicate that a click is possible
+         			MySelf..MouseCursor = curSystemHand
+         			
+         		else // If the rollover is positioned on the appointment area
+         			
+         			// Positions the default cursor
+         			MySelf..MouseCursor = curArrow
+         			
+         		end
+         		
+         	other case
+         		
+         end
+        type : 66048
+      -
+        internal_properties : CAAAAAgAAAAzz9uJoehC3UHCE3Xevlb72mTKgJ1gkE31guTaZpn/CciFzZWsa0Gf6nEaa3UEaYRrH+lnXOWa72CZvcYPt3fkPZGFLVxLBYsBOobr5QOqoVsAkTvlg4WsDcaTrYsTwhQ5dcLAMnPvIqIkbwQh9G460YgEhBZ7+GgBBjNqc5y8vw==
+        code : |1+
+         
+         // Left button down = a move is in progress
+         gbMoveInProgress = True
+         
+         // Retrieves the identifier (gLink) of the clicked resource
+         sResourceID is string = SchedulerInfoXY(MySelf, schResource, MouseXPos(), MouseYPos())
+         
+         // If the click is performed on the resource area
+         if MouseXPos() <= gnResourceWidth _and_ MouseYPos() > gnDayHeight then
+         	
+         	// According to the type of resource (break or not) and to the collapse status
+         	switch SchedulerResourceStatus(MySelf..FullName, sResourceID)
+         	
+         		// It is a group ("break")
+         		case resoCollapsed, resoExpanded
+         			// Reverses the collapse status
+         			SchedulerReverseResourceStatus(SCH_SchedulerBreak..FullName, sResourceID)
+         
+         			// Stores the resource currently displayed (to reposition the scheduler on it)
+         			gaaDisplayedResource = SchedulerPositionResource(SCH_SchedulerBreak)
+         			
+         			// Fills the scheduler again
+         			FillSchedule()
+         			
+         		// It is a person ("non break" resource)
+         		case resoError
+         			
+         			// Searches for the person
+         			HReadSeekFirst(PERSON, PERSONID, ExtractString(sResourceID, 2, ESC))
+         			if HFound(PERSON) then
+         				
+         				// Displays the phone number of the person
+         				Info(PERSON.NAME +CR+ "Phone: "+PERSON.PHONE)
+         				
+         			end
+         			
+         	end
+         	
+         end
+        type : 66049
+      -
+        code : |1+
+         // Left button up = end of move
+         gbMoveInProgress = False
+         
+         // Positions the default cursor
+         MySelf..MouseCursor = curArrow
+        type : 66050
+  -
+    name : BTN_Close
+    identifier : 0x2bf59978031a9594
+    internal_properties : CAAAAAgAAAAMX6V+jyiNZNJcVD4R+tqWnugwQAbewGa7H4owC2bf2bdrsSxd1UV58jLjs9NGzmX57OL09wcFlGCM2FxGAljJEAdCxqd7VO5fwciPbrZLnt1JHSIIHJsq3bfzgxU2BoiXSZ8R0kTHHmO3CXMtKVb5DaHWDdc9XtU82DclicshW/fO8s2Tms1EftPcLmzrjQcZO6JcmyrmKL5cSwQgFKKqs0Kmxtvtl9EkKWQQaGpABfwRsaenN1YYh9NYQKesCo/zcyDxnB9y+rLjpE3S5YkdmQl93xVKo8BC+fgeuLXUbIlv1LaO9ShAQIUY95oxyJur929ESnmYVCYFMHzGLQ+4+bcqZoguyIIEF7gZ9B2kBKfsqyPdMyiFnkwwHOUFf3lR0L5KVZnrjlyLnzSzk+SVHNmcRuJC4pR9vT0brG5yYKlP9QiZPIvtOTgbUQhYXD6mkFkDv+D201LmNuX01aLnaVBznKSznkbVx1IR0rKglZqQnpYCKWWhW1No9tKSjhXOMDdi3M8SV1UXmcXJbO1zGBWjqDnSEmHYPam0THBDGNbEVxcKB6q+ZP8t8NhCTdME0Mggg/owJ8ZKPAv1ABT4NcgkW0dpJ56xlTubUflW6glymgKh4qNGp28ZA1sD2Ce09Fsxrh4W8vQmlPjcg0nHtuyRF06lolTJ2dh0FD42vXTFhWrEV2+822arQ7ew3RChFirEeXok+/a5eY1R22dewQJq8us0UxPjjJLSra319C2HMa8+HEDchaqOWSudVsOvnn1/mMU5oDbe0cDdY714/JFgqazLeE9C+cYxKcAVAWBaLNgkW8Nm6rNamBznMd+IwKKowto9lm09n9oNB2hRiKpo1xiOB1TVXMawTXlqWVLKUsznBesPUglGdKYInZOC3Yd1nd7lhjgYrEcDwRn3r3UwaAuRh4sxmhwtBc/7pIIHbhJojToTqF+YihHvXmHiwnaWUWHPeTMiPIudCMlOiP2r4N0a4rQf6vfrmvxr+A==
+    properties :
+     x : 698
+     y : 590
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : CBOX_BreakColor
+    identifier : 0x2bf59978031b9594
+    internal_properties : CAAAAAgAAAA+05FfjT0p1dqmiaGNkgGVMGBHrqBFQvJ24LHCstFumDhtmtjZ8sB02WE691qWjIOsrPaKFOBC2sEIqqCYSg6FHbeXfAyLFl+AUd8yl6D/D9CyOWq1YRyIB0koi/fJu9lptpEEOJlp3obPT60yWitdBwf38gNbGzWNGkxSaz05/4tdj4y5GljOAgAciLZRVjAU3rLUN9FJEBR3M4REMbvf5JoWlvwOPt1jBFIVr+uI9LwRlHLs7PnXhoGbMMJtbgP4RdXifWzPPUX8vodDbyeIrJBWP/rs2UwqxJ3LWMTewcN44aDwXXEh5oKquOTfkiRQltzohWbez+6Vj8M+Ts+lRxYfFeMIIfq5KQF76RqIlnirlyczifbtKbRKkxLpiMw2DaC1b3OXrVn0XcRjnSU/yIC7rdhz7VY9VixjEIL1MZNTQdaN0AjpmFIjPSJRyKzMZ9X4kwTkCbBymE4LBGN9wOPk5bctlLmIzMvpCEhYMrM9uhrLOdMBysfc5VaDKGOTAbp1FKlykgfW3U7qtuDBpAo7qtzwxy2uqXzF7z4Q9LWFI6+iaf8+KmePDSQrn42OzRr+JWVbQZC+KZPsxCSahSHcQV0oQqwDYg0aOE/diocEovHMKaXG0zzc2zUkXos+xxs9ISvEd6L44GJlJB8yr4CXFhorlvHE4oTxjRW3QRModc6QPXcJ1izPZYVKwvIaG7Q9MJ7Ol3CHxRIRpJaHH9mxXjoLxy9bJheSUieewVTgQyZj+WJoaRskl39SqcIZkrjJWI/HoK5eOHw7Q+m0sdTmjAp772AYytxnZM6r0Pxk/InZjKBwmFVObeDnL702xBazLLQuZRlJt2MtyPFUgF+sBKBQuX7bgLZYVH8uveCQmYCq2PCDkSxMG6Evx5LQ+fzbUnIDhg42AzB8piOC4Wq3b9wWQgFKFN3fTDs6ZqC6FdwTXOYe9sYwxADzNOC4EjvN/VtrVthvnvMyf7o66sYTg1U/PtTg4FwKzuJlLSbgo1xqCnRJOyEZT6jvQ9Oqcg0z/EF75GWxzIvesDXaF21dVoia5AqgcM2djNzf6YLPC3SRDoAx9D95eNtin7ZoLI2AVVdpIUAXY4G8TbtPoV+JpRo9Yq5EVkPXkd7jru+SgcSLPdD338L9p7bghfm15PR/H3Bb7gJk2Oo/aZ4nnomfnGsOJgTlYTkmmOL9EzI=
+    properties :
+     x : 123
+     y : 62
+     width : 188
+     height : 24
+    options :
+     -
+       internal_properties : CAAAAAgAAAB1Qju49NLAl/db4f+hhQy/e853zFGk6GiZLznYm3beqb/NXwjxU140UwOTzXdgMYpng2darQKVUfNrms5DHEzJhew97S5R75J/1F7GhvWV9JrQumAdKNyIuJdX2koaIpvqAXAHLZX78mYk5vb13mRr69jUTBad0i10GkzDO5rXwMRzCO5K
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         // Rebuilds the scheduler
+         FillSchedule()
+        type : 17
+  -
+    name : STC_DisplayOption
+    identifier : 0x2bf59978031d9594
+    internal_properties : CAAAAAgAAAAJDLNk4JzDHBiFnrQP2ykslEMfEHFbnJKYFbQr2zXPWX5aXy4bOa7829wDQpE7KAPhK8UUM7z10dapK2Cdo4PwuvHDh2dhxDfhDXsgFts5CDFc2dbohZV/gBGZ1ojy8zGjqFLHiky88RpFImsjGOstfZmkSxDMOKZ2kOpfQsr1nfeqS9kmNEFcCuV/Dc2lUk90cSKfcDGGdkPFDAKUs5m5Lz7osdZq2dMaUz8VqEUH7kuE1qg4QsC4xhktUnjYL3GxsUvpWHX19uqbrfH9CusisKfY4OHeW2OG1S4IL7vA32I2h7RhKl3og4kO47WaZN5zo6txkmellOL7XkLUEFzY1DJZ/PZcEtvQdHZOuzmn2QHE4inNicD7CQKFH9gNqMenGdqF8bJGs+MSFqJeOdVS4Sfchnaok7rXXj5e7jAMGkiVrnRO0QlKTb+hexrOrvSJI64krM3dAYDaKwmtuJcTlLYI7qz6PxnUE4slwV2v1bp47FGwBNOSq0M=
+    properties :
+     x : 6
+     y : 67
+     width : 122
+     height : 15
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Action
+    identifier : 0x2bf59978031e9594
+    internal_properties : CAAAAAgAAADaDdxW0lzoMCufG6I0P4GfzvMKNrQxiC3HTMBhKG/Gfaoh6nutxxg3+OufeoIDiXyyGoJQIgQ/FW2r62+dhTxCjtC/GZp6W/R6IHCO9owMqytHsVOM4wbSBunDEyiA+SfaUsR5uwHlJmylgBiFf1OMqBVeXWqahyKo+Ttok1ALQ3w8WxOtQ6AXK9pTQq8uJG7Dsi3s5xsWH0THEBYms9C3qLsSld4D+XtyhZ2ggUbo6hrHdD/Axj/d4tnJIgkjh93j8SW4Ht59wpLtFwK3G4js7UNur4H5kY28NZQbVeav0aWCS6FhT9lIJ+ks3tUrNWRw7QNYpJb1yNqLhpfWaTXUOfqBKUTjRPnCrNAX2ToE/zSQ+IjjLJQj0ez9nDRkc+1SQfRuDz8wqbBT9k3kMhbjCebFJC9i8teqBOBLj7yo0f1H+DQvTU7S6ZdWAMeffixxGVoZSK9JIjnvEzAdK0Walgrst5LCK1Pu8DASt3Hdun7dLiXDV32QmE0RxmUKZVgvzVE=
+    properties :
+     x : 6
+     y : 595
+     width : 141
+     height : 15
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SHA_NoName1
+    identifier : 0x2bf59978031f9594
+    internal_properties : CAAAAAgAAABubnSuoYN2lND8BbWwxSxleweZ47WmUgPuH+XGdlJNNvHHtoILaun1HfxPSyIvCpOQ0BpLOBV9np5zKrnSUlaBVgF8Vuk01JLtD1gIhFk56SZCzse+3zJgCqo5aagk44Mkt0nv0rHOmICRcWAoAe3v46aT4v/dhf6230mUvitl1IUoFQcFXoAK7faDeprfFo1j7tYYzbX1I5PA1hfe0D0Zq9dVa5GyshM1D10XMY2oVTHzTPYvj5VvSkcOokMK8GPIrYuSMw/EivIMFwOnIUeiB/i1qAvsghUaCcux0XE0Y3I9zFUtSeIF2to5ad8P6ioVnNCgjnVTdxcrGqLcvM2b+hnwQEZCu0kEve1xfEa/wWQ5qpxTP9NHi6B29DZTiQ==
+    properties :
+     x : 6
+     y : 582
+     width : 772
+     height : 2
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : STC_Explanations
+    identifier : 0x2bf5997803209594
+    internal_properties : CAAAAAgAAAAEXq/4oq24uZZoA6V9ksopUjDhQBMTde4UzmxPINpi6DplPx6SRs0l/P4EOBZNTFwDRssOrvGMXtHEhLWWcFOnKzwmQzja5NTPI7dTyBnICw6vIZ/MvSnB1h1IN4v48HsIjo3Q0kvc0ZXaqW0o2qSFLKZQh1bRuoevTmWJjhvBXWkntpKHRBbCcpG1Fntse+X1VEL3CUwvjkNMf3dbreMLSawTVk8/AzlDusIwUebLkCoUIcMvO0EAD/QFWkTaIbKw46x4c0E9ozf8QfXb9PDck7CdXNG7d9Cu+ovmR22MIr9pxCwPWXH6DK9uu9y32ncSaE2Jd+NwMIlHs2ZoPqlQ9zIa/DDYDrr4B0CBpvoDxyWHA3kjtbmOdL9pC4n7T8GOuePxqvuDHVyZAHgB7UkpA919g8ok1gCTpuELceh+ayclfj+kwqKFWmCrdJZTipO3lT3xxTECe/gAUiej8Fbko3J7kkRS3jX+Tqx3Xv12XykGFbYqmap9a1sMcqeJTOs1i15pu+EaJIGfZZPJIPRv30bTaENvw+XDHZCv/Br6y2tBVJQnJ1uQveUtn+PU2qhaJ1JW8oQpMrfCPF7u2SuOxJBfSZgTwschDfwkMXPgv1nvf1nA5NcnBOUFizG+InObFKIbvMLz3fA+bJtub71u0KT7spcnmyw32fxAg7yvlk03mn41otPPWaJ9h6FviwIu7PeGTOCvM+gAZWnTkmekAneqJ/JWnQ==
+    properties :
+     x : 6
+     y : 6
+     width : 772
+     height : 55
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAG9lswjwyDTCC6VSRxbVSwIXhzpYHNiW8fmN8wBzrF7PVIEss5tw7HV6nQrEh/U7ZFQUyg4506EcxdQhsSYEu7rjG6k/I2YIRu
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAAVPNTT+VdIFZuMea8YXKJtcnQmhB/f+NGd4jSaFmlfeVhlPRUMu5EfyiG6e7VkGQSLT+n3rCV6nzB5zcYfR3fUtRkNldQj3YNJsh5jHasSWXOo2SPd+91kNb4LJQObaqwRvaooCutngmawiCOGp/2BXJMR9wGsMS3IAWtCGY+amQ==
+     code : |1+
+      Procédure WIN_Schedule()
+      
+      // Status of a "break" resource
+      EResourceStatus is énumération
+      	resoError		// The resource does not exist or is not a "break"
+      	resoCollapsed	// Expanded resource
+      	resoExpanded	// Collapsed resource
+      end
+      
+      gTempAPT				is an Appointment		// Variable used to store the data of an appointment (if the move is not possible, the appointment is repositioned with its initial data)
+      gbMoveInProgress 	is boolean = False	// True if a move is in progress (= left click down)
+      gaaCollapseBreak 	is ASSOCIATIVE ARRAY (*, *, wlString) of booleans	// Defines the status for each "break" resource (True/1 = expanded : False/0 = collapsed)
+      gaaChildResource		is ASSOCIATIVE ARRAY of strings
+      gaaDisplayedResource 	is string			// Stores the resource currently displayed to reposition the scheduler during the refresh
+      
+      // /!\ Caution: these variables must be modified according to the parameters of the Scheduler control
+      gnResourceWidth 		is int = 120		// Width of the resource area
+      gnDayHeight 			is int = 80		// Height of the day area
+   -
+     code : |1+
+      
+      
+      // Fills the scheduler
+      FillSchedule()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : FillSchedule
+     internal_properties : CAAAAAgAAABa63Xsu0g6Rers3bQzpRfAUGdyr0IhnXw1GVSYbE0IJWKdTbNDFa0sfWiNZWwEJqeoHbGySspEO4pwLZEYk7IlqH4u56F/bpF+yV9UfDPIzRI/Vv0SpTqv/R0aUbyzQP9qt9ncsxAPVhMWfmWB
+     procedure_id : 2014685149002634644
+     type_code : 14
+     code : |1+
+      // Summary: Fills the schedule
+      // Syntax:
+      //FillSchedule ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      Procédure FillSchedule()
+      
+      sGroupID 				is string
+      sPersonID 			is string
+      sDisplayedResource		is string
+      
+      
+      // Stops the display of control (to avoid the blinking effect during the fill operation)
+      SCH_SchedulerBreak..DisplayEnabled = False
+      
+      // Stores the resource currently displayed (to reposition the scheduler on it)
+      sDisplayedResource = SchedulerPositionResource(SCH_SchedulerBreak)
+      
+      // Clears the entire scheduler
+      SchedulerDeleteAll(SCH_SchedulerBreak)
+      
+      // Browses the groups
+      for each GROUP on STCGROUP
+      	
+      	// The group is identified by G[ESC]<GROUPID>
+      	sGroupID = "G" +ESC+ GROUP.GROUPID
+      	
+      	// Adds the group
+      	SchedulerAddBreakResource(SCH_SchedulerBreak..FullName, gLink(sGroupID) + GROUP.STCGROUP, (CBOX_BreakColor ? GetColor(GROUP.GROUPID) else *))
+      	
+      	// Adds the persons of this group
+      	for each PERSON on NAME where "GroupID = " + GROUP.GROUPID
+      		
+      		// The person is identified by P[ESC]<PERSONID>
+      		sPersonID = "P" +ESC+ PERSON.PERSONID
+      		
+      		// Adds the person
+      		SchedulerAddChildResource(SCH_SchedulerBreak..FullName, sGroupID, PERSON.NAME +CR+ gFontItalic(True) + "("+PERSON.EXTENSION+")" + gFontItalic(False) + gLink(sPersonID))
+      		
+      	end
+      	
+      end
+      
+      // Browses the tasks
+      for each TASK on STARTDATE
+      	
+      	// Finds the person linked to the task
+      	HReadSeekFirst(PERSON, PERSONID, TASK.PERSONID)
+      	if HFound(PERSON) then
+      		
+      		// Adds the appointment
+      		// /!\ Caution: the resource being added by gLink, this same gLink must be specified as resource for the task
+      		SchedulerAddAppointment(SCH_SchedulerBreak..FullName, "P"+ESC+PERSON.PERSONID, TASK.STCTASK, TASK.STARTDATE, TASK.ENDDATE, PERSON.GROUPID)	
+      		
+      	end
+      	
+      end
+      
+      // Positions the scheduler on the last resource displayed and stored
+      if sDisplayedResource <> "" then SchedulerPositionResource(SCH_SchedulerBreak, sDisplayedResource)
+      
+      // Re-enables the display of the control
+      SCH_SchedulerBreak..DisplayEnabled = True
+     type : 458752
+   -
+     name : SchedulerAddAppointment
+     internal_properties : CAAAAAgAAAAdbGsBxFTFDOw6VTWd0hV1VaKjag8eQVkk6yjTIPPC/PodNnyclt0WYzniRFBtuvNxfMPZwZ0m3tLDXuKSim78hSjXHcTAC0Cvgg2lXUNg21A6o7BjIMqemNiT+x3ZXdJQRzd2epH9Iaic2pn8HpIhxzCxsy8Zr4WKh4jNFHY16eXVz3sD6R/GTpkGqg1EfUpT6N0QCis4rsMRk5xiDh9T8piVDhqNUaokqZVnlRnVstO/bI3Jyzewav/2rlp/uMdquwxy0fL8IaMU3PGUlw4UXoRuyoQpXuB2CwfLbbhgjeHMba+u5PgaTzanV5HJ4BRjV8pSW8pKWTJKz7JbDUeMKTM42uehgKgkqHQCSMva1tNrdofsCOrKiVSKDm7HmncdAF4g59CodwwW1ITfGn6nKqquJo+zRcqL6OiknOQ84Z4cRIkgup44BI01dabN+Kg4jbcQfyrWzvI9mh3OcCQtcgyAf62CR6bcHgKjF98y8Q==
+     procedure_id : 2014685149002700180
+     type_code : 14
+     group : 2
+     code : |1+
+      // Summary: Adds an appointment to the scheduler
+      // Syntax:
+      //[ <Result> = ] SchedulerAddAppointment (<sNameSchedulerControl> is string, <sResource> is string, <sTitle> is string, <dtStartDate> is datetime, <dtEndDate> is datetime [, <vCategory> is variant])
+      //
+      // Parameters:
+      //	sNameSchedulerControl (ANSI string): Name of the scheduler control
+      //	sResource (ANSI string): Resource
+      //	sTitle (ANSI string): Title of the appointment
+      //	dtStartDate (datetime): Start date and time
+      //	dtEndDate (datetime): End date and time
+      //	vCategory (variant - default value=""): Category
+      // Return value:
+      // 	integer: Addition subscript
+      //// Automatic process of errors: RESULT -1
+      //
+      
+      Procédure SchedulerAddAppointment(local sNameSchedulerControl is string, local sResource is string, local sTitle is string, local dtStartDate is datetime, local dtEndDate is datetime, local vCategory is variant = "") : int
+      
+      
+      // If the resource specified for the appointment is a child resource
+      if gaaChildResource[sResource]..Empty = False then
+      	
+      	// If the parent resource is collapsed
+      	if SchedulerResourceStatus(sNameSchedulerControl, gaaChildResource[sResource]) = resoCollapsed then
+      		
+      		// The appointment must not be displayed
+      		result -1
+      
+      	end
+      	
+      end
+      
+      // Adds the appointment
+      result WL.SchedulerAddAppointment(sNameSchedulerControl, sResource, sTitle, dtStartDate, dtEndDate, vCategory)
+     type : 458752
+   -
+     name : SchedulerAddAppointment
+     internal_properties : CAAAAAgAAAB5OxWDhTeLUZxBL7PBfpDCAmU1/utsChEiG1XW9TiyWCpTqZH/No5nfDmlVM/SZViuvuQeRsR9SSn7W35/VfpxzWIh0YS3sUOma/o9gqmBtc9QpKfQj/tfIMVebCaCtVpoUrUjeuiR97KFzVmdxwFzj7QsNjEK74z2pe5TW50Jz2oQyE2+hE9jaDKXvwgUzyLgUN9PHcLiCPRwvutj7W9vwIops66mg7Q1fdTB2ohZJ91vRpNCwJq/hO+cczvAdhAGyr3cAJAgYg2tS/+4hu5RbjgzzfoGGanh0VY6qSZ6AeJVOuhXWeTwFkjALDMum9b/yzdPpdvtsBTFek6s7AydPBzUuuIqRsffTvP8Ls0hhrp5O4jxLRDgUliRoHXzoqN1I7x80yblH6euNhQuNQz4OJB4IsF24bhootktUDXRUFiis/pG5ZrQtBxFiVIFZI1td0a1igl8TZy9hOysC82WV/TfbyBvcKfpFoR39znpdASuKHqlIPfM/2iBC05+Rqa4GMPi+dgHcJaD3IIe9iObCiS99lL45UH5CUmsvNIVoUTzCzySCKCWMTH8fsYGsyhsx45jd7cSBWJ+wAZi
+     procedure_id : 2014685149002700180
+     type_code : 14
+     group : 2
+     code : |1+
+      // Summary: Adds an appointment to the scheduler
+      // Syntax:
+      //[ <Result> = ] SchedulerAddAppointment (<sNameSchedulerControl>, <AnAppointment> is Appointment)
+      //
+      // Parameters:
+      //	sNameSchedulerControl: Name of the Scheduler control
+      //	AnApointment (Appointment): Appointment variable describing the characteristics of the appointment to add.
+      // Return value:
+      // 	integer: Addition subscript
+      //// Automatic process of errors: RESULT -1
+      //
+      
+      Procédure SchedulerAddAppointment(local sNameSchedulerControl, local AnAppointment is an Appointment)
+      
+      // If the resource specified for the appointment is a child resource
+      if gaaChildResource[AnAppointment..Resource]..Empty = False then
+      	
+      	// If the parent resource is collapsed
+      	if SchedulerResourceStatus(sNameSchedulerControl, gaaChildResource[AnAppointment..Resource]) = resoCollapsed then
+      		
+      		// The appointment must not be displayed
+      		result -1
+      		
+      	end
+      	
+      end
+      
+      // Adds the appointment
+      result WL.SchedulerAddAppointment(sNameSchedulerControl, AnAppointment)
+     type : 458753
+   -
+     name : SchedulerAddChildResource
+     internal_properties : CAAAAAgAAABdQA2XJ6TIsZhQ11qLgdcRlVRngxPzYVEtgHig8MuCJRRa0mt+1nkBd6WCzFc7khJrT2fs4PF470IJmOnP8eNo24AHH2VDS3dEcOmbOavygTCGDNCNEf6dYHEYsgisEPxYOmD3nA65T9eKT+/yQJPEOkrS5scO090RSJAFtnUNwb420L1ffqwYNuF/GA==
+     procedure_id : 2014685149002765716
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Adds a child resource
+      // Syntax:
+      //[ <Result> = ] SchedulerAddChildResource (<sNameSchedulerControl> is string, <sParentID> is string, <sResource> is string)
+      //
+      // Parameters:
+      //	sNameSchedulerControl (ANSI string): Full name of the Scheduler control
+      //	sParentID (ANSI string): Identifier of parent resource (caption or gLink)
+      //	sResource (ANSI string): Resource (caption with gLink eventually)
+      // Return value:
+      // 	integer: Subscript of the resource 
+      //// Automatic process of errors: RESULT -1
+      //
+      
+      Procédure SchedulerAddChildResource(local sNameSchedulerControl is string, local sParentID is string, local sResource is string) : int
+      
+      nSubscript 	is int
+      sCaption	is string
+      sID			is string
+      
+      
+      // The Scheduler control must exist
+      if ControlExist(sNameSchedulerControl) = False then
+      	ErrorBuild("The Scheduler control %1 does not exist", sNameSchedulerControl)
+      	result -1
+      end
+      
+      
+      // Defines the caption and the identifier of the resource (if the specified resource contains gLink)
+      if Position(sResource, ESC+"K") > 0 then
+      	
+      	// Retrieves the caption and the identifier (gLink) according to the position of gLink
+      	if ExtractString(sResource, 1, ESC+"K") ~= "" then
+      		// Caption
+      		sCaption 	= ExtractString(sResource, 3, ESC+"K")
+      		// Identifier
+      		sID 		= ExtractString(sResource, 2, ESC+"K")
+      	else
+      		// Caption
+      		sCaption 	= ExtractString(sResource, 1, ESC+"K")
+      		// Identifier
+      		sID 		= ExtractString(sResource, 2, ESC+"K")
+      	end
+      	
+      else // no gLink
+      	
+      	// The caption and the identifier are identical
+      	sID 		= sResource
+      	sCaption 	= sResource
+      	
+      end
+      
+      // Stores for the parent/child couple
+      gaaChildResource[sID] = sParentID
+      
+      // If the parent is collapsed, the resource is not added to the scheduler
+      if gaaCollapseBreak[sParentID] = False then result -1
+      
+      // Adds the resource
+      nSubscript = SchedulerAddResource(sNameSchedulerControl, sResource)
+      
+      
+      result nSubscript
+     type : 458752
+   -
+     name : SchedulerAddBreakResource
+     internal_properties : CAAAAAgAAABPYVsuZ1UErZnSHEhjAe1eevvMCEoV8VkkyYovzWtp35XA4geXjao9KDE0ITq2Qq7ONUUTE6iMcpGIh+gVHKLgxyHtF48GDLi2l7C+04wFhHEHyyuH64v6K3iVr+bhzLE+P+ZZ3a85QgB7vCoJ2nol8d6cquQp6IBy9eF6I1gj2/jUlj1hcA5q0F/orURsj7Joz1obBw3tnxUJvddLIwrPLu4XcClYA/w8+1cSE/1Qv0MBOMkE/GwEBQrD+A==
+     procedure_id : 2014685149002831252
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Adds a "Break" resource
+      // Syntax:
+      //[ <Result> = ] SchedulerAddBreakResource (<sNameSchedulerControl> is string, <sResource> is string [, <nColor> is int])
+      //
+      // Parameters:
+      //	sNameSchedulerControl (ANSI string): Full name of the Scheduler control
+      //	sResource (ANSI string): Resource (caption possibly containing gLink)
+      //	nColor (integer - default value=8421504): Color that must be applied to the "break"
+      // Return value:
+      // 	integer: Subscript of added resource
+      //// Automatic process of errors: RESULT -1
+      //
+      
+      Procédure SchedulerAddBreakResource(local sNameSchedulerControl is string, local sResource is string, local nColor is int = RGB(190, 191, 191)) : int
+      
+      nSubscript 	is int
+      sID			is string
+      sCaption	is string
+      
+      
+      // The Scheduler control must exist
+      if ControlExist(sNameSchedulerControl) = False then
+      	ErrorBuild("The Scheduler control %1 does not exist", sNameSchedulerControl)
+      	result -1
+      end
+      
+      // Defines the caption and the identifier of the resource (if the specified resource contains gLink)
+      if Position(sResource, ESC+"K") > 0 then
+      	
+      	// Retrieves the caption and the identifier (gLink) according to the position of gLink
+      	if ExtractString(sResource, 1, ESC+"K") ~= "" then
+      		// Caption
+      		sCaption 	= ExtractString(sResource, 3, ESC+"K")
+      		// Identifier
+      		sID 		= ExtractString(sResource, 2, ESC+"K")
+      	else
+      		// Caption
+      		sCaption 	= ExtractString(sResource, 1, ESC+"K")
+      		// Identifier
+      		sID 		= ExtractString(sResource, 2, ESC+"K")
+      	end
+      	
+      else // no gLink
+      	
+      	// The caption and the identifier are identical
+      	sID 		= sResource
+      	sCaption 	= sResource
+      	
+      end
+      
+      // Adds the resource
+      nSubscript = SchedulerAddResource(sNameSchedulerControl, sResource)
+      
+      // Modifies the display of the group to "simulate" a break (reduced height, different color)
+      {sNameSchedulerControl, indControl}..Resource[sID]..Height 				= 20
+      {sNameSchedulerControl, indControl}..Resource[sID]..BackgroundColor 			= nColor
+      {sNameSchedulerControl, indControl}..Resource[sID]..TitleBackgroundColor 	= nColor
+      
+      // If it is the first load operation: stores the "break" as expanded by default
+      if gaaCollapseBreak[sID]..Empty then gaaCollapseBreak[sID] = True
+      
+      // According to the colllapse status of the "break" to apply
+      switch gaaCollapseBreak[sID]
+      	// Expanded
+      	case True
+      		// Adds an expanded symbol to the title
+      		{sNameSchedulerControl, indControl}..Resource[sID]..Title = gImage(IMG_Expanded) +" "+ sCaption
+      		
+      	// Collapsed
+      	case False
+      		// Adds a collapsed symbol to the title
+      		{sNameSchedulerControl, indControl}..Resource[sID]..Title = gImage(IMG_Collapsed) +" "+ sCaption
+      		
+      end
+      
+      result nSubscript
+     type : 458752
+   -
+     name : SchedulerExpand
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 2014685149002896788
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Expands a "break" of the Scheduler control
+      // Syntax:
+      //[ <Result> = ] SchedulerExpand (<sNameSchedulerControl> is string, <sResource> is string)
+      //
+      // Parameters:
+      //	sNameSchedulerControl (ANSI string): Full name of the Scheduler control
+      //	sResource (ANSI string): Resource to expand
+      // Return value:
+      // 	boolean: True if the "break" was expanded, False otherwise
+      //// Automatic process of errors: RETURN FALSE
+      //
+      
+      Procédure SchedulerExpand(local sNameSchedulerControl is string, local sResource is string) : boolean
+      
+      // The Scheduler control must exist
+      if ControlExist(sNameSchedulerControl) = False then
+      	ErrorBuild("The Scheduler control %1 does not exist", sNameSchedulerControl)
+      	result False
+      end
+      
+      // If the resource is not a break resource
+      if SchedulerResourceStatus(sNameSchedulerControl, sResource) = resoError then
+      	result False
+      end
+      
+      // Expands the break
+      gaaCollapseBreak[sResource] = True
+      
+      result True
+     type : 458752
+   -
+     name : SchedulerExpandAll
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 2014685149002962324
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Expands all the "breaks" of the Scheduler control
+      // Syntax:
+      //[ <Result> = ] SchedulerExpandAll (<sNameSchedulerControl> is string)
+      //
+      // Parameters:
+      //	sNameSchedulerControl (ANSI string): Full name of the Scheduler control
+      // Return value:
+      // 	boolean: True if the "break" was expanded, False otherwise
+      //// Automatic process of errors: RETURN FALSE
+      //
+      
+      Procédure SchedulerExpandAll(local sNameSchedulerControl is string) : boolean
+      
+      // The Scheduler control must exist
+      if ControlExist(sNameSchedulerControl) = False then
+      	ErrorBuild("The Scheduler control %1 does not exist", sNameSchedulerControl)
+      	result False
+      end
+      
+      // For each "break" resource
+      FOR ALL ELEMENT bValue, sResourceID of gaaCollapseBreak
+      	
+      	// Expands the break
+      	gaaCollapseBreak[sResourceID] = True	
+      	
+      end
+      
+      
+      result True
+     type : 458752
+   -
+     name : SchedulerCollapse
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 2014685149003027860
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Collapses a "break" of the Scheduler control
+      // Syntax:
+      //[ <Result> = ] SchedulerCollapse (<sNameSchedulerControl> is string, <sResource> is string)
+      //
+      // Parameters:
+      //	sNameSchedulerControl (ANSI string): Full name of the Scheduler control
+      //	sResource (ANSI string): Resource to collapse
+      // Return value:
+      // 	boolean: True if the "break" was collapsed, False otherwise
+      //// Automatic process of errors: RETURN FALSE
+      //
+      
+      Procédure SchedulerCollapse(local sNameSchedulerControl is string, local sResource is string) : boolean
+      
+      // The Scheduler control must exist
+      if ControlExist(sNameSchedulerControl) = False then
+      	ErrorBuild("The Scheduler control %1 does not exist", sNameSchedulerControl)
+      	result False
+      end
+      
+      // If the resource is not a break resource
+      if SchedulerResourceStatus(sNameSchedulerControl, sResource) = resoError then
+      	result False
+      end
+      
+      // Collapses the break
+      gaaCollapseBreak[sResource] = False
+      
+      result True
+     type : 458752
+   -
+     name : SchedulerCollapseAll
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 2014685149003093396
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Collapses all the "breaks" of the Scheduler control
+      // Syntax:
+      //[ <Result> = ] SchedulerCollapseAll (<sNameSchedulerControl> is string)
+      //
+      // Parameters:
+      //	sNameSchedulerControl (ANSI string): Full name of the Scheduler control
+      // Return value:
+      // 	boolean: True if the "break" was collapsed, False otherwise
+      //// Automatic process of errors: RETURN FALSE
+      //
+      
+      Procédure SchedulerCollapseAll(local sNameSchedulerControl is string) : boolean
+      
+      // The Scheduler control must exist
+      if ControlExist(sNameSchedulerControl) = False then
+      	ErrorBuild("The Scheduler control %1 does not exist", sNameSchedulerControl)
+      	result False
+      end
+      
+      // For each "break" resource
+      FOR ALL ELEMENT bValue, sResourceID of gaaCollapseBreak
+      	
+      	// Collapses the break
+      	gaaCollapseBreak[sResourceID] = False	
+      	
+      end
+      
+      result True
+     type : 458752
+   -
+     name : SchedulerResourceStatus
+     internal_properties : CAAAAAgAAAAM34km+p2LM0Jafr/gijXeTImHicFj7lFu9FrqtgEK91qgYssHbROYrXPWPQuCRnMMZ684xbe6oq1nscH9xKapdVr2FWTPC1MVk/+hO52w5+vn7IjZ6fSvrcAYUpDA0PhZ/QJLYO5TzRKT4VFwJvmoQ216mG+7u8SECyh/lCtC1H7uDeo=
+     procedure_id : 2014685149003158932
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Returns the status (collapsed/expanded) of a "break" resource
+      // Syntax:
+      //[ <Result> = ] SchedulerResourceStatus (<sNameSchedulerControl> is string, <sResourceID> is string)
+      //
+      // Parameters:
+      //	sNameSchedulerControl (ANSI string): Full name of the Scheduler control
+      //	sResourceID (ANSI string): Identifier of the resource
+      // Return value:
+      // 	enumeration: Status of resource
+      //// Automatic process of errors:   run the block of code CASE ERROR
+      //
+      
+      Procédure SchedulerResourceStatus(local sNameSchedulerControl is string, local sResourceID is string) : EResourceStatus
+      
+      
+      // The Scheduler control must exist
+      if ControlExist(sNameSchedulerControl) = False then
+      	ErrorBuild("The Scheduler control %1 does not exist", sNameSchedulerControl)
+      	result resoError
+      end
+      
+      // If the resource is not found in the array
+      if gaaCollapseBreak[sResourceID]..Empty then
+      	// The resource is not a break
+      	result resoError
+      end
+      
+      // Returns the collapse status
+      switch gaaCollapseBreak[sResourceID]
+      	
+      	// Collapsed
+      	case False : result resoCollapsed
+      	
+      	// Expanded
+      	case True : result resoExpanded
+      		
+      end
+      
+      case Error:
+      		result resoError
+     type : 458752
+   -
+     name : SchedulerReverseResourceStatus
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 2014685149003224468
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Reverses the status (collapsed/expanded) of a "break" resource
+      // Syntax:
+      //[ <Result> = ] SchedulerReverseResourceStatus (<sNameSchedulerControl> is string, <sResourceID> is string)
+      //
+      // Parameters:
+      //	sNameSchedulerControl (ANSI string): Full name of the Scheduler control
+      //	sResourceID (ANSI string): Identifier of the resource
+      // Return value:
+      // 	boolean: True if the inversion is performed, False otherwise
+      //// Automatic process of errors: RETURN FALSE
+      //
+      
+      Procédure SchedulerReverseResourceStatus(local sNameSchedulerControl is string, local sResourceID is string) : boolean
+      
+      
+      // The Scheduler control must exist
+      if ControlExist(sNameSchedulerControl) = False then
+      	ErrorBuild("The Scheduler control %1 does not exist", sNameSchedulerControl)
+      	result False
+      end
+      
+      // If the resource is not found in the array
+      if gaaCollapseBreak[sResourceID]..Empty then
+      	// The resource is not a break
+      	result False
+      end
+      
+      // Reverses the status
+      gaaCollapseBreak[sResourceID] = not gaaCollapseBreak[sResourceID]
+      	
+      // Modification
+      result True
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAravuN7gCjE2SkUWSjUgDlbh5zgRbRRWTjTzLVF81ztw8+mMCuYryPP7W5NF69Yz71EEFU0X1aTe47V1SjNwvJeewKsOAdBG0sho6gyiXijnCjUC9VXH2fdrhm3vucjUmMhD8zOIzePW35dyXO103H6T28mGw=
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x10f0130300139d54
+  internal_properties : CAAAAAgAAACZEjEk9ePFZOo+39SDkDJRBhrPU5L8MGNkyQkX/peSMADIgmGIamrQQ4iQ
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
